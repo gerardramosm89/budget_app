@@ -239,7 +239,6 @@ var controller = (function(budgetCtrl, UICtrl) {
     // 2. Return the budget
     var budget = budgetCtrl.getBudget();
     // 5. Display the budget on the UI
-    console.log(budget);
     UICtrl.displayBudget(budget);
   }
 
@@ -249,7 +248,6 @@ var controller = (function(budgetCtrl, UICtrl) {
     // 2. Read percentages from the budget controller
     var percentages = budgetCtrl.getPercentages();
     // 3. Update the UI with the new percentages
-    console.log(percentages);
     UICtrl.displayPercentages(percentages);
   };
   
@@ -258,7 +256,6 @@ var controller = (function(budgetCtrl, UICtrl) {
         // 1. Get the input data
         input = UICtrl.getInput();
         if (input.description !== "" && !isNaN(input.value) && input.value > 0) {
-        console.log(input);          
           // 2 add the item to the budget controller
           newItem = budgetCtrl.addItem(input.type, input.description, input.value);
           //3 add the item to the ui
