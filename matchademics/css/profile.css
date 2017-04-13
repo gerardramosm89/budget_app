@@ -67,6 +67,11 @@
   padding-top: 5px;
   font-size: 1rem !important;
 }
+.profile__questions--inner {
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+}
 .profile__questions p {
   color: #04202C;
   font-size: 1.4rem;
