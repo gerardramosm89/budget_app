@@ -1,0 +1,65 @@
+@import 'profile.css';
+
+.header {
+  text-align:center;
+  background-color: #04202C;
+  width:95%;
+  margin:auto;
+  border-radius: 8px;
+}
+
+.header h1 {
+  padding:70px 0;
+  color: white;
+  font-size: 4rem;
+}
+.row {
+  width:100%;
+  margin-bottom: 10px;
+}
+.cards__name-container {
+  width: 50%;
+  display: inline-block;
+}
+.cards__name-inner {
+  margin-top: 10px;
+  margin-left: 10%;
+  font-size: 1.5rem;
+}
+.cards__match-percent-container {
+  width: 44%;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+.cards__match-percent-text {
+  margin-top: 15px;
+  margin-bottom:15px;
+  margin-left: 0;
+}
+.cards__container {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.cards__image {
+  width:90%;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.cards__per-match {
+  width: 30%;
+  vertical-align:top;
+  display: inline-block;
+  background-color: white;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.cards__per-match:first-child {
+  margin-left:0;
+}
