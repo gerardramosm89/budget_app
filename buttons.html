@@ -1,0 +1,30 @@
+<!--
+This document outputs 10 buttons on the screen, and for each console logs the number you clicked
+  -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+  <div id="here"></div>
+  <script>
+    var button = '<button></button>'
+    var place = document.querySelector('#here');
+    // place.insertAdjacentHTML('beforeend', button);
+    for (let i = 0; i < 11; i++) {
+      let cls = "btn" + i.toString();
+      place.insertAdjacentHTML('beforeend', '<button class="' + cls + '">' + i.toString() + '</button>');
+      (function(cls) {
+        var btn = document.querySelector("." + cls)
+        btn.addEventListener('click', function() {
+          console.log(btn.textContent)
+        });
+      })(cls)
+    }
+  </script>
+</body>
+</html>

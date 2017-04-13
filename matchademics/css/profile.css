@@ -1,0 +1,114 @@
+
+/*
+  navy: #04202C
+  greyfont: #6c6c6c
+  darkerlightblue: #e7edf0
+  darkerdarkerlightblue: #8f969a
+*/
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.padding10px {
+  height:2px;
+}
+.loading__bar {
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #e7edf0;
+  height:30px;
+  border-radius:8px;
+}
+.loading__bar p {
+  margin-top:10px;
+  padding-top: 5px;
+}
+.profile__questions p {
+  color: #04202C;
+  font-weight:500;
+}
+.loading__status {
+  width:50px;
+  background-color: #8f969a;
+}
+.profile_and_feed__wrapper {
+  width:90%;
+  margin: auto;
+  /*background: white;*/
+  margin-top:50px;
+}
+.profile__header {
+  background-color: #04202C;
+}
+.profile__info {
+  color: white;
+  display:inline-block;
+  transform: translateY(-54px);
+  margin-left: 15px;
+}
+.profile__avatar {
+  display:inline-block;
+}
+.profile__info-container {
+  transform: translatey(50px);
+  margin-left:50px;
+  /*background-color: #a8afb2;*/
+  display: inline-block;
+  border-radius: 8px;
+}
+.profile__info h3 {
+  font-size:3rem;
+  padding-right: 10px;
+  margin-bottom:10px;
+}
+.profile__photo {
+  width:200px;
+  border-radius:8px;
+}
+.profile__details h1 {
+  color: #6c6c6c;
+}
+.profile__details {
+  width: 65%;
+  display: inline-block;
+  background-color: white;
+  border-radius:8px;
+}
+.profile__details p {
+  color: #6c6c6c;  
+  font-size:1.1rem;
+  margin-right:10px;
+}
+.profile__details h1 {
+  color: #6c6c6c;  
+  font-size:2rem;
+}
+.profile__feed {
+  width:30%;
+  margin-left: 20px;
+  float:right;
+  border-radius:8px;
+}
+.profile__questions {
+  background-color: white;
+  border-radius:8px;
+
+}
+.profile__activity {
+  margin-top:10px;
+  background-color: white;
+  border-radius:8px;
+
+}
+body {
+  background-color: #E7EDF0;
+}
+p {
+  margin-left:10px;
+  margin-top:0px;
+}
+h1 {
+  margin-left: 10px;
+  margin-bottom:5px;
+}
