@@ -41,8 +41,8 @@
 .cards__container {
   width: 95%;
   margin: auto;
-  display: flex;
-  justify-content: space-between;
+  display: table;
+  table-layout: fixed;
   margin-top: 30px;
 }
 .cards__image {
@@ -52,11 +52,12 @@
   margin-right: 5%;
 }
 .cards__per-match {
-  width: 30%;
+  width: 90%;
   vertical-align:top;
-  display: inline-block;
-  background-color: white;
+  display: table-cell;
   white-space: nowrap;
+  margin-left:10px;
+  background-color: white;
   border-radius: 5px;
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
 }
