@@ -5,3 +5,25 @@
   darkerlightblue: #e7edf0
   darkerdarkerlightblue: #8f969a
 */
+* {
+  font-family: 'Roboto'
+}
+.signup__header {
+  margin-top:100px;
+  font-size:4rem;
+  text-align: center;
+  padding-top: 20px;
+  font-weight:700;
+}
+body {
+  background-color: #e7edf0;
+}
+.form__card {
+  background-color: white;
+  border-radius: 8px;
+}
+form {
+  padding-right:30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
