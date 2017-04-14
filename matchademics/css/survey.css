@@ -1,0 +1,13 @@
+/*
+  navy: #04202C
+  greyfont: #6c6c6c
+  lightblue: #E7EDF0;
+  darkerdarkerlightblue: #8f969a
+*/
+body {
+  background-color: #E7EDF0;
+}
+
+.fiftypxpadding {
+  padding-top: 50px;
+}
