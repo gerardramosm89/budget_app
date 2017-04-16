@@ -77,6 +77,7 @@
   box-shadow: 1px 1px 5px #888888;
   border-radius: 10px;
   vertical-align: top;
+  margin-top: 20px;
 }
 .card__percent-traits {
   width: 100%;
@@ -132,4 +133,30 @@ body {
   padding:70px 0;
   color: white;
   font-size: 4rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .percentbar__container {
+    display:block;
+  }
+  .percent-traits--bar {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+  .card__percent-traits {
+    margin-left: 0;
+    text-align: center;
+  }
+  .card__percent-match {
+    display: block;
+    float: none;
+    margin-top: 0;
+    text-align: center;
+  }
+  .card__name {
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+  }
 }
