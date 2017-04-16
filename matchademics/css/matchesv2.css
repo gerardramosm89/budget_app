@@ -1,0 +1,135 @@
+/*
+  navy: #04202C
+  greyfont: #6c6c6c
+  darkerlightblue: #e7edf0
+  darkerdarkerlightblue: #8f969a
+*/
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing:border-box;
+}
+.btn__info {
+  background-color: #04202C;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  width: 45%;
+  margin-top: 10px;
+  margin-bottom: 2%;
+}
+.card__info {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+.btn__info--text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btn__info--left {
+  float: left;
+}
+.btn__info--right {
+  float: right;
+}
+.percentbar__container {
+  border-radius:80px;
+  width: 95%;
+  margin:auto;
+  height:10px;
+  background: #ff3232;
+  background: -moz-linear-gradient(left, #ff3232 0%, #ffce30 35%, #a9ff28 69%, #10ff00 100%); 
+  background: -webkit-linear-gradient(left, #ff3232 0%,#ffce30 35%,#a9ff28 69%,#10ff00 100%); 
+  background: linear-gradient(to right, #ff3232 0%,#ffce30 35%,#a9ff28 69%,#10ff00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#10ff00',GradientType=1 );
+  box-shadow: 1px 1px 5px #888888;
+  
+}
+.percentbar {
+  float:right;
+  height:10px;
+  background: #E7EDF0;
+  border-radius: 8px;
+}
+.percentbar2 {  
+  float:right;
+  height:10px;
+  background: #E7EDF0;
+  border-radius: 8px;
+}
+.card__percent-traits {
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+.cards__wrapper {
+  margin: auto;
+  width: 95%;
+  display: table-cell;
+  vertical-align: top;
+}
+.card__outer {
+  display: inline-block;
+  margin-right: 2%;
+  transform: translatex(9%);
+  width: 30%;
+  background: white;
+  box-shadow: 1px 1px 5px #888888;
+  border-radius: 10px;
+  vertical-align: top;
+}
+.card__percent-traits {
+  width: 100%;
+}
+.percent-traits--title {
+  width: 35%;
+  display: inline-block;
+}
+.percent-traits--bar {
+  width: 60%;
+  display: inline-block;
+}
+.card__inner {
+  width: 95%;
+  margin:auto;
+  margin-top: 2%;
+}
+.card__name{
+  font-size: 2.3rem;
+  display: inline-block;
+  margin-top: 10px;
+}
+.card__image {
+  width: 100%;
+  box-shadow: 1px 1px 5px #888888;
+  border-radius: 8px;
+}
+.rowx {
+  width: 100%;
+}
+.card__hr {
+  width: 100%;
+  margin: 0;
+}
+.card__percent-match {
+  float: right;
+  vertical-align: top;
+  font-size: 1.6rem;
+  margin-top: 19px;
+}
+body {
+  background-color: #E7EDF0;
+}
+.header {
+  text-align:center;
+  background-color: #04202C;
+  width:95%;
+  margin:auto;
+  border-radius: 8px;
+}
+
+.header h1 {
+  padding:70px 0;
+  color: white;
+  font-size: 4rem;
+}
