@@ -10,6 +10,34 @@
   font-family: 'Roboto', sans-serif;
   box-sizing:border-box;
 }
+.profile__top-btns {
+  width: 95%;
+  margin: auto;
+  padding: 10px 0;
+  font-weight: 600;
+}
+.profile__survey-btn{
+  width: 47%;
+  display: inline-block;
+  text-align: center;
+  background: #04202C;
+  border-radius: 8px;
+  color: white;
+  height: 40px;
+  padding-top: 10px;
+  min-width: 130px;
+}
+.profile__modify-responses {
+  width: 47%;
+  float: right;
+  text-align: center;
+  background: #04202C;
+  border-radius: 8px;
+  color: white;
+  height: 40px;
+  padding-top: 10px;
+  min-width: 140px;
+}
 .padding10px {
   height:10px;
 }
@@ -81,9 +109,8 @@
   font-size: 1.3rem;
   margin-top: 7px;
 }
-.profile__questions {
+.profile__question-btns {
   width: 90%;
-  overflow: auto;
 }
 .loading__status {
   width:50px;
@@ -153,7 +180,14 @@
   background-color: white;
   border-radius:8px;
   width:100%;
-
+  overflow: auto;
+}
+.profile__questions-btns {
+  background-color: white;
+  border-radius:8px;
+  width:100%;
+  overflow: auto;
+  margin-top: 10px;
 }
 .profile__activity {
   margin-top:10px;

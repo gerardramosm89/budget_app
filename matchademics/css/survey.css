@@ -8,6 +8,10 @@ body {
   background-color: #E7EDF0;
 }
 
-.fiftypxpadding {
-  padding-top: 50px;
+.survey__card {
+  margin-top: 100px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 1px 0px 10px #848484;
 }
