@@ -12,6 +12,9 @@
 body {
 	margin: 0;
 }
+.clearfix {
+	clear: both;
+}
 .navbar__row {
 	width: 100%;
 	text-align: center;
@@ -52,4 +55,82 @@ body {
 	height: 5px;
 	clear: both;
 	background-color: #042050;
+}
+
+/*
+	Home Banner CSS
+*/
+
+.home__banner {
+	height:350px;
+	background-image: url('../img/matchademics-banner.jpg');
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+.banner__text-wrapper {
+	position: absolute;
+	bottom: 70px;
+	right: 70px;
+	color: white;
+	width: 450px;
+}
+.banner__text--upper {
+	background-color: #1D3661;
+	display: inline-block;
+	width: 100%;
+}
+.banner__text--upper p {
+	padding: 10px;
+	margin: 0;
+	display: inline-block;
+}
+.banner__text--upper p:first-child {
+	font-size: 1.3rem;
+}
+.banner__text--upper p:nth-child(2) {
+	float: right;
+	padding-right: 30px;
+	padding-top: 12px;
+}
+.banner__text--lower {
+	background-color: #555555;
+	display: inline-block;
+}
+.banner__text--lower p {
+	padding: 10px;
+	margin: 0;
+}
+
+/* Info Section */
+.info__wrapper {
+	width: 800px;
+	margin: 50px auto;
+}
+.info__card {
+	width: 196px;
+	display: inline-block;
+}
+.info__card--left {
+	width: 16%;
+	display: inline-block;
+	vertical-align: top;
+}
+.info--icons {
+	font-size: 27px !important;
+}
+.info__card--right {
+	width: 80%;
+	display: inline-block;
+	vertical-align: top;	
+}
+.info__card--right h4 {
+	margin: 0;
+	margin-bottom: 5px;
+	font-size: 1.1rem;
+	color: #D56A46;
+}
+.info__card--right p {
+	margin: 0;
+	font-size: .8rem;
 }
