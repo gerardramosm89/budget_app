@@ -1,4 +1,7 @@
-@import 'profile.css';
+/*@import 'profile.css';*/
+body {
+  background-color: #E7EDF0;
+}
 
 .header {
   text-align:center;
@@ -12,6 +15,23 @@
   padding:70px 0;
   color: white;
   font-size: 4rem;
+  font-weight:700;
+}
+.percentbar__container {
+  border-radius:80px;
+  width: 95%;
+  margin:auto;
+  height:10px;
+  background: #ff3232; /* Old browsers */
+  background: -moz-linear-gradient(left, #ff3232 0%, #ffce30 35%, #a9ff28 69%, #10ff00 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ff3232 0%,#ffce30 35%,#a9ff28 69%,#10ff00 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ff3232 0%,#ffce30 35%,#a9ff28 69%,#10ff00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3232', endColorstr='#10ff00',GradientType=1 );
+}
+.percentbar {
+  float:right;
+  height:10px;
+  background: #E7EDF0;
 }
 .row {
   width:100%;

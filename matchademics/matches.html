@@ -23,6 +23,12 @@
             <p class="cards__match-percent-text">97% Match</p>
           </div>
         </div>
+        <div class="row">
+          <div class="percentbar__container">
+            <div class="percentbar">
+            </div>
+          </div>
+        </div>
       </div>
       <div class="cards__per-match">
         <img class="cards__image" src="img/mitsuha.png" />
@@ -51,5 +57,11 @@
         </div>
       </div>
     </div>
+    <script>
+      var percentbar = document.querySelector('.percentbar');
+      var actual = 50;
+      var deficit = 100 - actual;
+      percentbar.style.width = deficit.toString() + '%';
+    </script>
   </body>
 </html>

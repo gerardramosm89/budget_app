@@ -1,3 +1,55 @@
+/*
+	$darkblue = #042050
+	$lighterdarkblue = #1D3661
+	$darkgrey = #555555
+	$lightergreyer = #F0F0F0
+	$orange = #D56A46
+*/
+
 * {
 	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.navbar__row {
+	width: 100%;
+	text-align: center;
+	background-color: #1D3661;
+	color: white;
+}
+.navbar__list {
+	padding: 0;
+	margin: 0;
+}
+.navbar__item {
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px 23px;
+	font-size: 1.2rem;
+}
+.navbar__item:hover {
+	background-color: #042050;
+}
+.navbar__home {
+	float: left;
+	position: absolute;
+	top: 13px;
+	left: 23px;
+	font-size: 1.3rem;
+}
+.navbar__social {
+	float: right;
+	position: absolute;
+	top: 11px;
+	right: 23px;
+}
+.fa.social--icons {
+	padding-left:10px;
+	font-size:24px !important;
+}
+.navbar__bottom {
+	height: 5px;
+	clear: both;
+	background-color: #042050;
 }
