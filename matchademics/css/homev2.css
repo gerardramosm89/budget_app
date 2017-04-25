@@ -16,6 +16,9 @@ body {
 .clearfix {
 	clear: both;
 }
+.wrapper {
+	width: 100%;
+}
 .navbar__row {
 	width: 100%;
 	text-align: center;
@@ -105,7 +108,7 @@ body {
 
 /* Info Section */
 .info__wrapper {
-	width: 800px;
+	width: 50rem;
 	margin: 50px auto;
 }
 .info__card {
@@ -134,4 +137,38 @@ body {
 .info__card--right p {
 	margin: 0;
 	font-size: .8rem;
+}
+
+/* About Us CSS */
+
+.about-us__wrapper {
+	width: 62.5rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.about-us__heading {
+	background-color: #1D3661;
+	color: white;
+	width: 100%;
+}
+.about-us__heading h4 {
+	padding: .7rem;
+}
+.about-us__card {
+	width: 33%;
+	display:inline-block;
+	vertical-align: top;
+}
+.card--heading {
+	font-size: 1.3rem;
+	color: #1D3661;
+	font-weight: 700;
+	margin: 0;
+}
+.arrow {
+	display: inline-block;
+	color: #D56A46;
+}
+.arrow-text {
+	display: inline-block;
 }
