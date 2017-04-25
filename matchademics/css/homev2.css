@@ -164,11 +164,48 @@ body {
 	color: #1D3661;
 	font-weight: 700;
 	margin: 0;
+	margin-bottom: 10px;
+}
+.card--innertext {
+	font-size: .8rem;
 }
 .arrow {
 	display: inline-block;
 	color: #D56A46;
+	margin-left: 1rem;
 }
 .arrow-text {
 	display: inline-block;
+	margin: 0;
+	margin-bottom: 5px;
+	font-size: .8rem;
+}
+.testimonial--author {
+	color: #D56A46;
+	margin-top: 1rem;
+	margin-left: 1.3rem;
+}
+
+/* Meet the team css */
+.meet-the-team__wrapper {
+	width: 62.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	text-align: justify;
+}
+.meet-the-team__heading {
+	background-color: #1D3661;
+	color: white;
+	width: 100%;
+	text-align: justify;
+}
+.meet-the-team__heading h4 {
+	padding: .7rem;
+}
+.team__cards {
+	width: calc(89.21% / 3);
+	background: #555555;
+	display: inline-block;
+	margin:1rem;
 }
