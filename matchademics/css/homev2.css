@@ -209,3 +209,16 @@ body {
 	display: inline-block;
 	margin:1rem;
 }
+
+.gridcontainer {
+	display:grid;
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px; 
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+}
+.item-a {
+  grid-column-start: 5;
+  grid-row-end: 3;
+	background-color: aliceblue;
+}
