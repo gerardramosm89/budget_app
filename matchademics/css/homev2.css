@@ -12,6 +12,13 @@
 }
 body {
 	margin: 0;
+	height: 3000px;
+}
+hr {
+	background-color: white !important;
+	border: solid .01rem #F0F0F0 !important;
+	height: .01rem !important;
+	width: 100% !important;
 }
 .clearfix {
 	clear: both;
@@ -205,9 +212,10 @@ body {
 }
 .team__cards {
 	width: calc(89.21% / 3);
-	background: #555555;
+	background: #F0F0F0;
 	display: inline-block;
 	margin:1rem;
+	height: 25rem;
 }
 
 .gridcontainer {
@@ -221,4 +229,65 @@ body {
   grid-column-start: 5;
   grid-row-end: 3;
 	background-color: aliceblue;
+}
+
+/* Start Services CSS */
+
+.services__wrapper {
+	width: 62.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.services__heading {
+	background-color: #1D3661;
+	color: white;
+	width: 100%;
+	text-align: justify;
+}
+.services__wrapper h4 {
+	padding: .7rem;
+}
+.services__card--wrapper {
+	display: inline-block;
+	width: 20%;
+	margin: 1rem;
+	border-color: #f0f0f0;
+	vertical-align: top;
+	border-width: .04rem;
+	border-style: solid;
+	border-radius: 5px;
+}
+.services__card--header {
+	text-align: left;
+	background-color: #1D3661;
+}
+.services__card--header h4 {
+	color: white;
+	padding: .7rem;
+	padding-left:1rem;
+	margin: 0;
+}
+.services__card--pricing {
+	padding: 1rem;
+	text-align: left;
+	font-weight: bold;
+}
+.services__card--checkpoints--wrapper {
+	width: 100%;
+}
+.services__card--checkpoints {
+	width: 100%;
+	text-align: left;
+}
+.checkpoint--icon {
+	display: inline-block;
+	padding: .3rem;
+}
+.services__card--checkpoints--text {
+	display: inline-block;
+	vertical-align: top;
+	font-size:.7rem;
+	text-align: left;
+	transform: translatey(0.35rem);
 }
