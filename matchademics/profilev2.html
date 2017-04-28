@@ -1,0 +1,173 @@
+  <head>
+    <link rel="stylesheet" href="css/profilev2.css">
+    <!--<script src="https://use.fontawesome.com/db2f3bef23.js"></script>
+    <script src="https://use.fontawesome.com/db2f3bef23.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">-->
+  </head>
+  <body>
+    <!-- start navbar -->
+    <div class="navbar__row">
+      <div class="navbar__home">
+        Matchademics
+      </div>
+      <div class="navbar__social">
+        <i class="fa fa-facebook social--icons" aria-hidden="true"></i>
+        <i class="social--icons fa fa-twitter" aria-hidden="true"></i>
+        <i class="social--icons fa fa-google-plus" aria-hidden="true"></i>
+      </div>
+      <div class="navbar__items">
+        <ul class="navbar__list">
+          <a href="http://google.com">
+            <li class="navbar__item">Home</li>
+          </a>
+          <li class="navbar__item">Services</li>
+          <li class="navbar__item">Contact</li>
+        </ul>
+      </div>
+    </div>
+    <div class="navbar__bottom">
+    </div>
+    <!-- end navbar -->
+    <!-- start profile -->
+    <div class="wrapper">
+      <div class="profile--wrapper">
+        <div class="profile__photo-activity--wrapper">
+          <div class="profile__photo">
+            <img src="img/avatar3.png" />
+          </div>
+          <div class="profile__activity">
+            <div class="profile__activity--header--wrapper">
+              <h3>Activity</h3>
+              <div class="underline"></div>
+            </div>
+            <div class="feed__item--wrapper">
+              <div class="feed__item--time">
+                Just Now
+              </div>
+              <div class="feed__item--action">
+                <div class="action--name">
+                  <h6>Commander Riker</h6>
+                </div>
+                <div class="action--type">
+                  <p>joined Matchademics</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="profile__information--wrapper">
+          <div class="wrapper--no-margin">
+            <div class="profile__main-info">
+              <div class="profile__information--inner-wrapper">
+                <h3 class="profile__full-name">
+                  Benjamin Everett
+                </h3>
+                <div class="major-focus--wrapper">
+                  <div class="major-focus--icon">
+                    icon here
+                  </div>
+                  <div class="major-focus--text">
+                    <p>Electrical Engineer</p>
+                    <p>Wave Physics and Electromagnetism</p>
+                  </div>
+                </div>
+                <div class="location--wrapper">
+                  <div class="location--icon">
+                    icon
+                  </div>
+                  <div class="location--text">
+                    <p>Davis, California</p>
+                    <p>United States</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="profile__contact-bookmark">
+              <div class="profile__contact-bookmark--buttons-wrapper">
+                <button class="contact__button">
+                  Contact
+                </button>
+                <button class="bookmark__button">
+                  Bookmark
+                </button>
+              </div>
+            </div>
+          </div>
+
+
+
+        <!-- start About, Resume, Questions and Survey -->
+        <div class="arqs--wrapper">
+          <div class="arqs__buttons--container">
+            <button class="arqs__buttons about-btn">
+              About
+            </button>
+            <button class="arqs__buttons resume-btn">
+              Resume
+            </button>
+            <button class="arqs__buttons questions-btn">
+              Questions
+            </button>
+            <button class="arqs__buttons survey-btn">
+              Survey
+            </button>
+          </div>
+          <hr />
+          <div class="arqs__content--wrapper">
+            <div class="arqs__content arqs__content--about show">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et minima esse, in quis eos inventore animi eum soluta ut nulla dolores, natus eius, sed nemo laboriosam repudiandae molestiae quaerat eveniet.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, inventore cumque ullam ipsa, soluta eveniet eum iure fugiat voluptate debitis autem culpa ratione optio nisi placeat adipisci sed accusamus consequatur.</p>
+            </div>
+            <div class="arqs__content arqs__content--resume hide">
+              <p>resume</p>
+            </div>
+            <div class="arqs__content arqs__content--questions hide">
+              <p>questions</p>
+            </div>
+            <div class="arqs__content arqs__content--survey hide">
+              <p>survey</p>
+            </div>
+          </div>
+        </div>
+        <!-- end About, Resume, Questions and Survey -->
+
+        </div>
+
+      </div>
+    </div>
+    <!-- end profile -->
+    <script>
+      var buttons = document.querySelectorAll('.arqs__buttons');
+      function buttonClick (e) {
+        // console.log(e.target.innerText)
+        if (e.target.innerText == 'About') {
+          document.querySelector('.arqs__content--about').style.display = 'block';
+          document.querySelector('.arqs__content--resume').style.display = 'none';
+          document.querySelector('.arqs__content--questions').style.display = 'none';
+          document.querySelector('.arqs__content--survey').style.display = 'none';
+        }
+        if (e.target.innerText == 'Resume') {
+          document.querySelector('.arqs__content--about').style.display = 'none';
+          document.querySelector('.arqs__content--resume').style.display = 'block';
+          document.querySelector('.arqs__content--questions').style.display = 'none';
+          document.querySelector('.arqs__content--survey').style.display = 'none';
+        }
+        if (e.target.innerText == 'Questions') {
+          document.querySelector('.arqs__content--about').style.display = 'none';
+          document.querySelector('.arqs__content--resume').style.display = 'none';
+          document.querySelector('.arqs__content--questions').style.display = 'block';
+          document.querySelector('.arqs__content--survey').style.display = 'none';
+        }
+        if (e.target.innerText == 'Survey') {
+          document.querySelector('.arqs__content--about').style.display = 'none';
+          document.querySelector('.arqs__content--resume').style.display = 'none';
+          document.querySelector('.arqs__content--questions').style.display = 'none';
+          document.querySelector('.arqs__content--survey').style.display = 'block';
+        }
+      }
+      for (let i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', buttonClick)
+      }
+
+    </script>
+  </body>
